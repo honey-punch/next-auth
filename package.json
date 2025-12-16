@@ -1,0 +1,37 @@
+{
+  "name": "next-auth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css,html}\""
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.12",
+    "camelcase": "^9.0.0",
+    "ky": "^1.14.1",
+    "next": "16.0.8",
+    "next-auth": "^4.24.13",
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "@malgn/eslint-config-malgn": "1.0.6",
+    "@malgn/prettier-config-malgn": "1.0.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/xmldom": "^0.1.34",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.8",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "prettier": "@malgn/prettier-config-malgn",
+  "packageManager": "yarn@4.5.0"
+}
