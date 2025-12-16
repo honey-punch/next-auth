@@ -1,10 +1,7 @@
 'use client';
 
-import { useEffect } from 'react';
-
 import { useRouter } from 'next/navigation';
 
-import Example from '@/src/app/_component/Example';
 import { useUser } from '@/src/hooks/user/useUser';
 import { signOut, useSession } from 'next-auth/react';
 
